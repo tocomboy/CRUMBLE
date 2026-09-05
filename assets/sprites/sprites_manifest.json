@@ -1,0 +1,68 @@
+{
+    "player": {
+        "frame_w": 64,
+        "frame_h": 64,
+        "feet_y": 62,
+        "body_cx": 32,
+        "body_cy": 36,
+        "frames": {
+            "idle": [
+                0
+            ],
+            "run": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "jump": [
+                5
+            ]
+        },
+        "sheets": {
+            "red": "player_red.png",
+            "blue": "player_blue.png"
+        }
+    },
+    "weapons": {
+        "rifle": {
+            "file": "weapon_rifle.png",
+            "w": 48,
+            "h": 16,
+            "muzzle": [
+                47,
+                7
+            ],
+            "grip": [
+                18,
+                7
+            ]
+        },
+        "shotgun": {
+            "file": "weapon_shotgun.png",
+            "w": 36,
+            "h": 18,
+            "muzzle": [
+                35,
+                9
+            ],
+            "grip": [
+                16,
+                8
+            ]
+        },
+        "mortar": {
+            "file": "weapon_mortar.png",
+            "w": 36,
+            "h": 36,
+            "muzzle": [
+                28,
+                12
+            ],
+            "grip": [
+                14,
+                26
+            ]
+        }
+    }
+}
